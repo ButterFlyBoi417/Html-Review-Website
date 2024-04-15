@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html style="border: 10px solid #e3e3e3;">
+<head>
+	<title>HTML Review</title>
+	<font color="e9e9e9" size="3px">
+	<link rel="stylesheet" href="htmlReviewStyles.css">
+</head>
+	
+<body style="background-color: #222222;">
+
+<section id="HTML_Review">
+	<header>
+		<h1 style='text-align: center;'>HTML Review.</h1> <hr>
+	</header>
+	
+	<main>
+		<h2><em>Forms:</em></h2>
+		<section id="forms"> 
+		<ul>
+			<li>The purpose of a <font class="ref">&ltform&gt</font> is to allow users to input information and send it.</li>
+			<li>The <font class="ref">&ltform&gt</font>‘s <font class="ref">action</font> attribute determines where the form’s information goes.</li>
+			<li>The <font class="ref">&ltform&gt</font>‘s <font class="ref">method</font> attribute determines how the information is sent and processed.</li>
+			<li>To add fields for users to input information we use the <font class="ref">&ltinput&gt</font> element and set the <font class="ref">type</font> attribute to a field of our choosing:</li>
+				<ul><li>Setting <font class="ref">type</font> to <font class="ref">"text"</font> creates a single row field for text input.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"password"</font> creates a single row field that censors text input.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"number"</font> creates a single row field for number input.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"range"</font> creates a slider to select from a range of numbers.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"checkbox"</font> creates a single checkbox that can be paired with other checkboxes.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"radio"</font> creates a radio button that can be paired with other radio buttons.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"text"</font> and adding the list attribute will pair the &ltinput&gt with a &ltdatalist&gt element if the list of &ltinput&gt and the id of &ltdatalist&gt are the same.</li>
+				<li>Setting <font class="ref">type</font> to <font class="ref">"submit"</font> creates a submit button.</li></ul>
+			<li>A <font class="ref">&ltselect&gt</font> element is populated with <font class="ref">&ltoption&gt</font> elements and renders a dropdown list selection.</li>
+			<li>A <font class="ref">&ltdatalist&gt</font> element is populated with <font class="ref">&ltoption&gt</font> elements and works with an <font class="ref">&ltinput&gt</font> to search through choices.</li>
+			<li>A <font class="ref">&lttextarea&gt</font> element is a text input field that has a customizable area.</li>
+			<li>When a <font class="ref">&ltform&gt</font> is submitted, the <font class="ref">name</font> of the fields that accept input and the <font class="ref">value</font> of those fields are sent as <font class="ref">name=value</font> pairs.</li>
+		</ul>
+		</section>
+		
+		<h2><em>Form Validation:</em></h2>
+		<section id="formValidation">
+		<ul>
+			<li>Client-side validations happen in the browser before information is sent to a server.</li>
+			<li>Adding the <font class="ref">required</font> attribute to an input related element will validate that the input field has information in it.</li>
+			<li>Assigning a value to the <font class="ref">min</font> attribute of a number input element will validate an acceptable minimum value.</li>
+			<li>Assigning a value to the <font class="ref">max</font> attribute of a number input element will validate an acceptable maximum value.</li>
+			<li>Assigning a value to the <font class="ref">minlength</font> attribute of a text input element will validate an acceptable minimum number of characters.</li>
+			<li>Assigning a value to the <font class="ref">maxlength</font> attribute of a text input element will validate an acceptable maximum number of characters.</li>
+			<li>Assigning a regex to <font class="ref">pattern</font> matches the input to the provided regex.</li>
+			<li>If validations on a <font class="ref">&ltform&gt</font> do not pass, the user gets a message explaining why and the <font class="ref">&ltform&gt</font> cannot be submitted.</li>
+		</ul>
+		</section>
+		
+		<h2><em>Tables:</em></h2>
+		<section id="tables">
+		<ul>
+			<li>The <font class="ref">&lttable&gt</font> element creates a table.</li>
+			<li>The <font class="ref">&lttr&gt</font> element adds rows to a table.</li>
+			<li>To add data to a row, you can use the <font class="ref">&lttd&gt</font> element.</li>
+			<li>Table headings clarify the meaning of data. Headings are added with the <font class="ref">&ltth&gt</font> element.</li>
+			<li>Table data can span columns using the <font class="ref">colspan</font> attribute.</li>
+			<li>Table data can span rows using the <font class="ref">rowspan</font> attribute.</li>
+			<li>Tables can be split into three main sections: a head, a body, and a footer.</li>
+			<li>A table’s head is created with the <font class="ref">&ltthead&gt</font> element.</li>
+			<li>A table’s body is created with the <font class="ref">&lttbody&gt</font> element.</li>
+			<li>A table’s footer is created with the <font class="ref">&lttfoot&gt</font> element.</li>
+			<li>All the CSS properties you learned about in this course can be applied to tables and their data.</li>
+		</ul>
+		</section>
+		
+		<h2><em>HTML Tags:</em></h2>
+		<section id="htmlTags">
+		<ul>
+			<li>The <font class="ref">&lt!DOCTYPE html&gt</font> declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.</li>
+			<li>The <font class="ref">&lthtml&gt</font> element will contain all of your HTML code.</li>
+			<li>Information about the web page, like the title, belongs within the <font class="ref">&lthead&gt</font> of the page.</li>
+			<li>You can add a title to your web page by using the <font class="ref">&lttitle&gt</font> element, inside of the head.</li>
+			<li>A webpage’s title appears in a browser’s tab.</li>
+			<li>Anchor tags (<font class="ref">&lta&gt</font>) are used to link to internal pages, external pages or content on the same page.</li>
+			<li>You can create sections on a webpage and jump to them using <font class="ref">&lta&gt</font> tags and adding <font class="ref">id</font>s to the elements you wish to jump to.</li>
+			<li>Whitespace between HTML elements helps make code easier to read while not changing how elements appear in the browser.</li>
+			<li>Indentation also helps make code easier to read. It makes parent-child relationships visible.</li>
+			<li>Comments are written in HTML using the following syntax: <font class="ref">&lt!-- comment --&gt</font>.</li>
+		</ul>
+		</section>
+		
+		<h2><em>Semantic HTML:</em></h2>
+		<section id="semantic">
+		<ul>
+			<li>Semantic HTML introduces meaning to a page through specific elements that provide context as to what is in between the tags.</li>
+			<li>Semantic HTML is a modern standard and makes a website accessible for people who use screen readers to translate the webpage and improves your website’s SEO.</li>
+			<li><font class="ref">&ltheader&gt</font>, <font class="ref">&ltnav&gt</font> , <font class="ref">&ltmain&gt</font> and <font class="ref">&ltfooter&gt</font> create the basic structure of the webpage.</li>
+			<li><font class="ref">&ltsection&gt</font> defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</li>
+			<li><font class="ref">&ltarticle&gt</font> holds content that makes sense on its own such as articles, blogs, comments, etc.</li>
+			<li><font class="ref">&ltaside&gt</font> contains information that is related to the main content, but not required in order to understand the dominant information.</li>
+			<li><font class="ref">&ltfigure&gt</font> encapsulates all types of media.</li>
+			<li><font class="ref">&ltfigcaption&gt</font> is used to describe the media in <font class="ref">&ltfigure&gt</font>.</li>
+			<li><font class="ref">&ltvideo&gt</font>, <font class="ref">&ltembed&gt</font>, and <font class="ref">&ltaudio&gt</font> elements are used for media files.</li>
+		</ul>
+		
+		</font>
+	 </main>
+</section>	 
+
+</body>

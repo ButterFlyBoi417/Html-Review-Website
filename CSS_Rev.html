@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html style="border: 10px solid #e3e3e3;">
+<head>
+	<title>CSS Review</title>
+	<font color="e9e9e9" size="3px">
+	<link rel="stylesheet" href="htmlReviewStyles.css">
+</head>
+	
+<body style="background-color: #222222;">
+
+<section id="CSS">
+<font color="e9e9e9" size="3px">
+	
+	<header>
+	<h1 style='text-align: center;'>CSS Review</h1> <hr>
+	</header>
+	
+	<h2><em>Ruleset Terms:</em></h2>
+	<section id="ruleSetTerms">
+		<ol>
+			<li>Selector—The beginning of the ruleset used to target the element that will be styled.</li>
+			<li>Declaration Block—The code in-between (and including) the curly braces ({ }) that contains the CSS declaration(s).</li>
+			<li>Declaration—The group name for a property and value pair that applies a style to the selected element.</li>
+			<li>Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.</li>
+			<li>Value—The second part of the declaration that signifies the value of the property.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Inline Style Terms:</em></h2>
+	<section id="inlineStyleTerms">
+		<ol>
+			<li>Opening Tag—The start of an HTML element. This is the element that will be styled.</li>
+			<li>Attribute—The style attribute is used to add CSS inline styles to an HTML element.</li>
+			<li>Declaration—The group name for a property and value pair that applies a style to the selected element.</li>
+			<li>Property—The first part of the declaration that signifies what visual characteristic of the element is to be modified.</li>
+			<li>Value—The second part of the declaration that signifies the value of the property.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Setup and Syntax:</em></h2>
+	<section id="SetupAndSyntax">
+		<ol>
+			<li>The basic anatomy of CSS syntax written for both inline styles and stylesheets.</li>
+			<li>Some commonly used CSS terms, such as ruleset, selector, and declaration.</li>
+			<li>CSS inline styles can be written inside the opening HTML tag using the <font class="ref">style</font> attribute.</li>
+			<li>Inline styles can be used to style HTML, but it is not the best practice.</li>
+			<li>An internal stylesheet is written using the <font class="ref">&ltstyle&gt</font> element inside the <font class="ref">&lthead&gt</font> element of an HTML file.</li>
+			<li>Internal stylesheets can be used to style HTML but are also not best practice.</li>
+			<li>An external stylesheet separates CSS code from HTML, by using the <font class="ref">.css</font> file extension.</li>
+			<li>External stylesheets are the best approach when it comes to using HTML and CSS.</li>
+			<li>External stylesheets are linked to HTML using the <font class="ref">&ltlink&gt</font> element.</li>
+			<a href="https://www.codecademy.com/resources/docs/css" target="_blank">Codecademy Docs: CSS</a> 
+			<br>
+			<a href="https://www.codecademy.com/workspaces/new" target="_blank">Codecademy Docs: CSS</a>
+		</ol>
+	</section>
+	
+	<h2><em>Selectors:</em></h2>
+	<section id="Selectors">
+		<ol>
+			<li>CSS can select HTML elements by type, class, ID, and attribute.</li>
+			<li>All elements can be selected using the universal selector.</li>
+			<li>An element can have different states using the pseudo-class selector.</li>
+			<li>Multiple CSS classes can be applied to one HTML element.</li>
+			<li>Classes can be reusable, while IDs can only be used once.</li>
+			<li>IDs are more specific than classes, and classes are more specific than type. That means IDs will override any styles from a class, and classes will override any styles from a type selector.</li>
+			<li>Multiple <font class="ref">selectors</font> can be chained together to select an element. This raises the specificity but can be necessary.</li>
+			<li>Nested elements can be selected by separating selectors with a space.</li>
+			<li>Multiple unrelated selectors can receive the same styles by separating the selector names with commas.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Visual Rules:</em></h2>
+	<section id="visualRules">
+		<ol>
+			<li>The <font class='ref'>font-family</font> property defines the typeface of an element.</li>
+			<li><font class='ref'>font-size</font> controls the size of text displayed.</li>
+			<li><font class='ref'>font-weight</font> defines how thin or thick text is displayed.</li>
+			<li>The <font class='ref'>text-align</font> property places text in the left, right, or center of its parent container.</li>
+			<li>Text can have two different color attributes: <font class='ref'>color</font> and <font class='ref'>background-color</font>. <font class='ref'>color</font> defines the color of the text, while <font class='ref'>background-color</font> defines the color behind the text.</li>
+			<li>CSS can make an element transparent with the <font class='ref'>opacity</font> property.</li>
+			<li>CSS can also set the background of an element to an image with the <font class='ref'>background-image</font> property.</li>
+			<li>The <font class='ref'>!important</font> flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
+		</ol>
+	</section>
+	
+	<h2><em>The Box Model:</em></h2>
+	<section id="theBoxModel">
+		<ol>
+			<li>The box model comprises a set of properties used to create space around and between HTML elements.</li>
+			<li>The height and width of a content area can be set in pixels or percentages.</li>
+			<li>Borders surround the content area and padding of an element. The color, style, and thickness of a border can be set with CSS properties.</li>
+			<li>Padding is the space between the content area and the border. It can be set in pixels or percent.</li>
+			<li>Margin is the amount of spacing outside of an element’s border.</li>
+			<li>Horizontal margins add, so the total space between the borders of adjacent elements is equal to the sum of the right margin of one element and the left margin of the adjacent element.</li>
+			<li>Vertical margins collapse, so the space between vertically adjacent elements is equal to the larger margin.</li>
+			<li><font class='ref'>margin: 0 auto</font> horizontally centers an element inside of its parent content area, if it has a width.</li>
+			<li>The <font class='ref'>overflow</font> property can be set to <font class='ref'>display</font>, <font class='ref'>hidden</font>, or <font class='ref'>scroll</font>, and dictates how HTML will render content that overflows its parent’s content area.</li>
+			<li>The <font class='ref'>visibility</font> property can hide or show elements.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Changing The Box Model:</em></h2>
+	<section id="changingTheBoxModel">
+		<ol>
+			<li>In the default box model, box dimensions are affected by border thickness and padding.</li>
+			<li>The <font class='ref'>box-sizing</font> property controls the box model used by the browser.</li>
+			<li>The default value of the <font class='ref'>box-sizing</font> property is <font class='ref'>content-box</font>.</li>
+			<li>The value for the new box model is <font class='ref'>border-box</font>.</li>
+			<li>The <font class='ref'>border-box</font> model is not affected by border thickness or padding.</li>
+		</ol>
+	</section>
+		
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+		
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+		
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+		
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+	
+</font>	
+</section>
+
+</body>
