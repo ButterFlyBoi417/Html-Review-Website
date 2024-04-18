@@ -70,20 +70,6 @@
 		</ol>
 	</section>
 	
-	<h2><em>Visual Rules:</em></h2>
-	<section id="visualRules">
-		<ol>
-			<li>The <font class='ref'>font-family</font> property defines the typeface of an element.</li>
-			<li><font class='ref'>font-size</font> controls the size of text displayed.</li>
-			<li><font class='ref'>font-weight</font> defines how thin or thick text is displayed.</li>
-			<li>The <font class='ref'>text-align</font> property places text in the left, right, or center of its parent container.</li>
-			<li>Text can have two different color attributes: <font class='ref'>color</font> and <font class='ref'>background-color</font>. <font class='ref'>color</font> defines the color of the text, while <font class='ref'>background-color</font> defines the color behind the text.</li>
-			<li>CSS can make an element transparent with the <font class='ref'>opacity</font> property.</li>
-			<li>CSS can also set the background of an element to an image with the <font class='ref'>background-image</font> property.</li>
-			<li>The <font class='ref'>!important</font> flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
-		</ol>
-	</section>
-	
 	<h2><em>The Box Model:</em></h2>
 	<section id="theBoxModel">
 		<ol>
@@ -111,10 +97,60 @@
 		</ol>
 	</section>
 		
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Visual Rules:</em></h2>
+	<section id="VisualRules">
 		<ol>
-			<li></li>
+			<li>The <font class='ref'>font-family</font> property defines the typeface of an element.</li>
+			<li><font class='ref'>font-size</font> controls the size of text displayed.</li>
+			<li><font class='ref'>font-weight</font> defines how thin or thick text is displayed.</li>
+			<li>The <font class='ref'>text-align</font> property places text in the left, right, or center of its parent container.</li>
+			<li>Text can have two different color attributes: <font class='ref'>color</font> and <font class='ref'>background-color</font>. <font class='ref'>color</font> defines the color of the text, while <font class='ref'>background-color</font> defines the color behind the text.</li>
+			<li>CSS can make an element transparent with the <font class='ref'>opacity</font> property.</li>
+			<li>CSS can also set the background of an element to an image with the <font class='ref'>background-image</font> property.</li>
+			<li>The <font class='ref'>!important</font> flag will override any style, however it should almost never be used, as it is extremely difficult to override.</li>
+		</ol>
+	</section>
+		
+	<h2><em>Layout:</em></h2>
+	<section id="layout">
+		<ol>
+			<li>The <font class='ref'>position</font> property allows you to specify the position of an element.</li>
+			<li>When set to <font class='ref'>relative</font>, an element’s position is relative to its default position on the page.</li>
+			<li>When set to <font class='ref'>absolute</font>, an element’s position is relative to its closest positioned parent element. It can be pinned to any part of the web page, but the element will still move with the rest of the document when the page is scrolled.</li>
+			<li>When set to <font class='ref'>fixed</font>, an element’s position can be pinned to any part of the web page. The element will remain in view no matter what.</li>
+			<li>When set to <font class='ref'>sticky</font>, an element can stick to a defined offset position when the user scrolls its parent container.</li>
+			<li>The <font class='ref'>z-index</font> of an element specifies how far back or how far forward an element appears on the page when it overlaps other elements.</li>
+			<li>The <font class='ref'>display</font> property allows you to control how an element flows vertically and horizontally in a document.</li>
+			<li><font class='ref'>inline</font> elements take up as little space as possible, and they cannot have manually adjusted <font class='ref'>width</font> or <font class='ref'>height</font>.</li>
+			<li><font class='ref'>block</font> elements take up the width of their container and can have manually adjusted <font class='ref'>heights</font>.</li>
+			<li><font class='ref'>inline-block</font> elements can have set <font class='ref'>width</font> and <font class='ref'>height</font>, but they can also appear next to each other and do not take up their entire container width.</li>
+			<li>The <font class='ref'>float</font> property can move elements as far left or as far right as possible on a web page.</li>
+			<li>You can clear an element’s left or right side (or both) using the <font class='ref'>clear</font> property.</li>
+		</ol>
+	</section>
+		
+	<h2><em>Color:</em></h2>
+	<section id="color">
+		<ol>
+			<li>Named colors—there are more than 140 named colors.</li>
+			<li>Hexadecimal or hex colors</li>
+			<ul>
+				<li>Hexadecimal is a number system that has sixteen digits, 0 to 9 followed by “A” to “F”.</li>
+				<li>Hex values always begin with <font class='ref'>#</font> and specify values of red, blue, and green using hexadecimal numbers such as <font class='ref'>#23F41A</font>.</li>
+				<li>Six-digit hex values with duplicate values for each RGB value can be shorted to three digits.</li>
+			</ul>
+			<li>RGB</li>
+			<ul>
+				<li>RGB colors use the <font class='ref'>rgb()</font> syntax with one value for red, one value for blue and one value for green.</li>
+				<li>RGB values range from 0 to 255 and look like this: <font class='ref'>rgb(7, 210, 50)</font>.</li>
+			</ul>
+			<li>HSL</li>
+			<ul>
+				<li>HSL stands for hue (the color itself), saturation (the intensity of the color), and lightness (how light or dark a color is).</li>
+				<li>Hue ranges from 0 to 360 and saturation and lightness are both represented as percentages like this: <font class='ref'>hsl(200, 20%, 50%)</font>.</li>
+			</ul>
+			<li>You can add opacity to color in RGB and HSL by adding a fourth value, <font class='ref'>a</font>, which is represented as a percentage.</li>
+
 		</ol>
 	</section>
 		
@@ -124,14 +160,28 @@
 			<li></li>
 		</ol>
 	</section>
-		
+			
 	<h2><em>blah:</em></h2>
 	<section id="blah">
 		<ol>
 			<li></li>
 		</ol>
 	</section>
-		
+			
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+			
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+			
 	<h2><em>blah:</em></h2>
 	<section id="blah">
 		<ol>
