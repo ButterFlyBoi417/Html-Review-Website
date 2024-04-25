@@ -12,7 +12,7 @@
 <font color="e9e9e9" size="3px">
 	
 	<header>
-	<h1 style='text-align: center;'>JS Review</h1> <hr>
+	<h1 style='text-align: center;'><a href='index.html'>JS Review</a></h1> <hr>
 	</header>
 	
 	<h2><em>Introduction:</em></h2>
@@ -31,45 +31,102 @@
 		</ol>
 	</section>
 	
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Variables:</em></h2>
+	<section id="variables">
 		<ol>
-			<li></li>
+			<li>Variables hold reusable data in a program and associate it with a name.</li>
+			<li>Variables are stored in memory.</li>
+			<li>The <font class='ref'>var</font> keyword is used in pre-ES6 versions of JS.</li>
+			<li><font class='ref'>let</font> is the preferred way to declare a variable when it can be reassigned, and <font class='ref'>const</font> is the preferred way to declare a variable with a constant value.</li>
+			<li>Variables that have not been initialized store the primitive data type <font class='ref'>undefined</font>.</li>
+			<li>Mathematical assignment operators make it easy to calculate a new value and assign it to the same variable.</li>
+			<li>The <font class='ref'>+</font> operator is used to concatenate strings including string values held in variables.</li>
+			<li>In ES6, template literals use backticks <font class='ref'>`</font> and <font class='ref'>${}</font> to interpolate values into a string.</li>
+			<li>The <font class='ref'>typeof</font> keyword returns the data type (as a string) of a value.</li>
 		</ol>
 	</section>
 	
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Conditionals:</em></h2>
+	<section id="conditionals">
 		<ol>
-			<li></li>
+			<li>An <font class='ref'>if</font> statement checks a condition and will execute a task if that condition evaluates to <font class='ref'>true</font>.</li>
+			<li><font class='ref'>if...else</font> statements make binary decisions and execute different code blocks based on a provided condition.</li>
+			<li>We can add more conditions using <font class='ref'>else if</font> statements.</li>
+			<li>Comparison operators, including <font class='ref'>&lt</font>, <font class='ref'>&gt</font>, <font class='ref'>&lt=</font>, <font class='ref'>&gt=</font>, <font class='ref'>===</font>, and <font class='ref'>!==</font> can compare two values.</li>
+			<li>The logical and operator, <font class='ref'>&&</font>, or “and”, checks if both provided expressions are truthy.</li>
+			<li>The logical operator <font class='ref'>||</font>, or “or”, checks if either provided expression is truthy.</li>
+			<li>The bang operator, <font class='ref'>!</font>, switches the truthiness and falsiness of a value.</li>
+			<li>The ternary operator is shorthand to simplify concise <font class='ref'>if...else</font> statements.</li>
+			<li>A <font class='ref'>switch</font> statement can be used to simplify the process of writing multiple <font class='ref'>else if</font> statements. The <font class='ref'>break</font> keyword stops the remaining <font class='ref'>case</font>s from being checked and executed in a <font class='ref'>switch</font> statement.</li>
 		</ol>
 	</section>
 	
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Functions:</em></h2>
+	<section id="functions">
 		<ol>
-			<li></li>
+			<li>A function is a reusable block of code that groups together a sequence of statements to perform a specific task.</li>
+			<li>A function declaration :
+				<br><img src='https://content.codecademy.com/courses/learn-javascript-functions/Diagram/declaration.svg'></li>
+			<li>A parameter is a named variable inside a function’s block which will be assigned the value of the argument passed in when the function is invoked:
+				<br><img src='https://content.codecademy.com/courses/learn-javascript-functions/Diagram/function_parameters.svg'></li>
+			<li>To <em>call</em> a function in your code:
+				<br><img src='https://content.codecademy.com/courses/learn-javascript-functions/Diagram/name.svg'></li>
+			<li>ES6 introduces new ways of handling arbitrary parameters through default parameters which allow us to assign a default value to a parameter in case no argument is passed into the function.</li>
+			<li>To return a value from a function, we use a return statement.</li>
+			<li>To define a function using <em>function expressions</em>:
+				<br><img src='https://content.codecademy.com/courses/learn-javascript-functions/Diagram/expression.svg'></li>
+			<li>To define a function using <em>arrow function notation</em>:
+				<br><img src='https://content.codecademy.com/courses/learn-javascript-functions/Diagram/arrow_notation.svg'></li>
+			<li>Function definition can be made concise using concise arrow notation:
+				<br><img src='https://content.codecademy.com/courses/learn-javascript-functions/Diagram/return.svg'></li>
 		</ol>
 	</section>
 	
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Scope:</em></h2>
+	<section id="scope">
 		<ol>
-			<li></li>
+			<li><b>Scope</b> refers to where variables can be accessed throughout the program, and is determined by where and how they are declared.</li>
+			<li><b>Blocks</b> are <a href='https://www.codecademy.com/resources/docs/javascript/statements' target='_blank'>statements</a> that exist within curly braces <font class='ref'>{}</font>.</li>
+			<li><b>Global scope</b> refers to the context within which variables are accessible to every part of the program.</li>
+			<li><b>Global variables</b> are variables that exist within global scope.</li>
+			<li><b>Block scope</b> refers to the context within which variables are accessible only within the block they are defined.</li>
+			<li><b>Local variables</b> are variables that exist within block scope.</li>
+			<li><b>Global namespace</b> is the space in our code that contains globally scoped information.</li>
+			<li><b>Scope pollution</b> is when too many variables exist in a namespace or variable names are reused.</li>
 		</ol>
 	</section>
 	
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Arrays:</em></h2>
+	<section id="array">
 		<ol>
-			<li></li>
+			<li>Arrays are lists that store data in JavaScript.</li>
+			<li>Arrays are created with brackets <font class='ref'>[]</font>.</li>
+			<li>Each item inside of an array is at a numbered position, or index, starting at <font class='ref'>0</font>.</li>
+			<li>We can access one item in an array using its index, with syntax like: <font class='ref'>myArray[0]</font>.</li>
+			<li>We can also change an item in an array using its index, with syntax like <font class='ref'>myArray[0] = 'new string'</font>;</li>
+			<li>Arrays have a <font class='ref'>length</font> property, which allows you to see how many items are in an array.</li>
+			<li>Arrays have their own <a href='https://www.codecademy.com/resources/docs/javascript/methods' target='_blank'>methods</a>, including <font class='ref'>.push()</font> and <font class='ref'>.pop()</font>, which add and remove items from an array, respectively.</li>
+			<li>Arrays have many methods that perform different tasks, such as <font class='ref'>.slice()</font>, <font class='ref'>.splice()</font>, <font class='ref'>.shift()</font> and <font class='ref'>.unshift()</font>, you can find documentation at the <a href='https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array' target='_blank'>Mozilla Developer Network</a> website.</li>
+			<li>Some built-in methods are mutating, meaning the method will change the array, while others are not mutating. You can always check the documentation.</li>
+			<li><a href='https://www.codecademy.com/resources/docs/javascript/variables' target='_blank'>Variables</a> that contain arrays can be declared with <font class='ref'>let</font> or <font class='ref'>const</font>. Even when declared with <font class='ref'>const</font>, arrays are still mutable. However, a variable declared with <font class='ref'>const</font> cannot be reassigned.</li>
+			<li>Arrays mutated inside of a function will keep that change even outside the function.</li>
+			<li>Arrays can be nested inside other arrays.</li>
+			<li>To access elements in nested arrays chain indices using bracket notation.</li>
+			<li>You can use <font class='ref'>.join(' ')</font> to make the array into one whole sentence.</li>
 		</ol>
 	</section>
 	
-	<h2><em>blah:</em></h2>
-	<section id="blah">
+	<h2><em>Loops:</em></h2>
+	<section id="loops">
 		<ol>
-			<li></li>
+			<li>Loops perform repetitive actions so we don’t have to code that process manually every time.</li>
+			<li>How to write <font class='ref'>for</font> loops with an iterator variable that increments or decrements</li>
+			<li>How to use a <font class='ref'>for</font> loop to iterate through an array</li>
+			<li>A nested <font class='ref'>for</font> loop is a loop inside another loop</li>
+			<li><font class='ref'>while</font> loops allow for different types of stopping conditions</li>
+			<li>Stopping conditions are crucial for avoiding infinite loops.</li>
+			<li><font class='ref'>do...while</font> loops run code at least once— only checking the stopping condition after the first execution</li>
+			<li>The <font class='ref'>break</font> keyword allows programs to leave a loop during the execution of its block</li>
 		</ol>
 	</section>
 	
