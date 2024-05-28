@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html style="border: 10px solid #e3e3e3;">
+<head>
+	<title>C++ Review</title>
+	<font color="e9e9e9" size="3px">
+	<link rel="icon" type="image/jpg" href="https://static.thenounproject.com/png/5265761-200.png">
+	<link rel="stylesheet" href="htmlReviewStyles.css">
+</head>
+	
+<body style="background-color: #222222;">
+
+<section id='C++'>
+<font color="e9e9e9" size="3px">
+	
+	<header>
+	<h1 style='text-align: center;'><a href='index.html'>C++ Review</a></h1> <hr>
+	</header>
+	
+	<h2><em>Hello World:</em></h2>
+	<section id="helloWorld">
+		<ol>
+			<li>C++ is a general-purpose coding language.</li>
+			<li>C++ runs line by line, from top to bottom.</li>
+			<li><font class='ref'>std::cout</font> is how you output to the terminal:</li>
+			<ul><li>std::cout &lt&lt "Good luck!\n";</li></ul>
+		</ol>
+	</section>
+	
+	<h2><em>Compile & Execute:</em></h2>
+	<section id="compileExecute">
+		<ol>	
+			<li>Compilation and execution using the <a href='https://www.codecademy.com/resources/docs/command-line/terminal' target='_blank'>terminal</a>.</li>
+		<ul>
+			<li>g++ hello.cpp -o hello</li>
+
+			<li>./hello</li>
+		</ul>
+			<li>Single line <a href='https://www.codecademy.com/resources/docs/cpp/comments?page_ref=catalog' target='_blank'>comments</a> can be created using <font class='ref'>//</font>.</li>
+			<li>Multi-line comments can be created using <font class='ref'>/*</font> <font class='ref'>*/</font>.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Variables:</em></h2>
+	<section id="variableCPP">
+		<ol>
+			<li>A <a href='https://www.codecademy.com/resources/docs/cpp/variables?page_ref=catalog' target='_blank'>variable</a> represents a particular piece of your computer’s memory that has been set aside for you to use to store, retrieve, and manipulate data.</li>
+			<li>C++ basic <a href='https://www.codecademy.com/resources/docs/cpp/data-types?page_ref=catalog' target='_blank'>data types</a> include:</li>
+		<ul>
+				<li><font class='ref'>int</font>: integers</li>
+				<li><font class='ref'>double</font>: floating-point numbers</li>
+				<li><font class='ref'>char</font>: individual characters</li>
+				<li><font class='ref'>string</font>: sequence of characters</li>
+				<li><font class='ref'>bool</font>: true/false</li>
+		</ul>
+			<li>Single equal sign <font class='ref'>=</font> indicates assignment, not equality in the mathematical sense.</li>
+			<li><font class='ref'>cin</font> is how to receive input from the user.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Conditionals & Logic:</em></h2>
+	<section id="conditionalsNlogic">
+		<ol>
+			<li>An <font class='ref'>if</font> statement checks a condition and will execute a task if that condition evaluates to true.</li>
+			<li><font class='ref'>if</font> / <font class='ref'>else</font> statements make binary decisions and execute different code blocks based on a provided condition.</li>
+			<li>We can add more conditions using <font class='ref'>else if</font> statements.</li>
+			<li>Relational operators, including <font class='ref'>&lt</font>, <font class='ref'>></font>, <font class='ref'>&lt=</font>, <font class='ref'>>=</font>, <font class='ref'>==</font>, and <font class='ref'>!=</font> can compare two values.</li>
+			<li>A <font class='ref'>switch</font> statement can be used to simplify the process of writing multiple <font class='ref'>else if</font> statements. The <font class='ref'>break</font> keyword stops the remaining cases from being checked and executed in a switch statement.</li>
+			<li>If you add <font class='ref'>#include &ltcstdlib&gt</font>, you can use the <font class='ref'>std::rand()</font> function to generate a random number.</li>
+			<li>If you add <font class='ref'>% 10</font> to the end of a random number generator it will generate a number <font class='ref'>0-9</font>. This works with more numbers than the example used here.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Logical Operators:</em></h2>
+	<section id="logicalOperators">
+		<ol>
+			<li><font class='ref'>&&</font>: the <font class='ref'>and</font> logical operator</li>
+			<li><font class='ref'>||</font>: the <font class='ref'>or</font> logical operator</li>
+			<li><font class='ref'>!</font>: the <font class='ref'>not</font> logical operator</li>
+			<li>When A <font class='ref'>/</font> B = Q, where Q is the quocient, what is the remainder(R)? When A <font class='ref'>%</font> B = R, you get the remainder in place of the quocient.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Loops:</em></h2>
+	<section id="loopsCPP">
+		<ol>
+			<li>Loops perform repetitive actions so we don’t have to code those actions manually every time.</li>
+			<li>How to write <font class='ref'>while</font> loops with a continue condition.</li>
+			<li>How to write <font class='ref'>for</font> loops with a counter that increments or decrements.</li>
+		</ol>
+	</section>
+	
+	<h2><em>Errors:</em></h2>
+	<section id="errors">
+		<ol>
+			<li><b>Compile-time errors:</b> Errors found by the compiler.</li>
+			<li><b>Link-time errors:</b> Errors found by the linker when it is trying to combine object <a href='https://www.codecademy.com/resources/docs/cpp/files' target='_blank'>files</a> into an executable program.</li>
+			<li><b>Run-time errors:</b> Errors found by checks in a running program.</li>
+			<li><b>Logic errors:</b> Errors found by the programmer looking for the causes of erroneous results.</li>
+		</ol>
+	</section>
+
+	<h2><em>Vectors:</em></h2>
+	<section id="vectors">
+		<ol>
+			<li>Vectors are a sequence of elements that you can access by an index.</li>
+		<ul>
+			<li>std::vector&ltint&gt even = {2, 4, 6, 8, 10};</li>
+		</ul>
+			<li>The first index in a vector is <font class='ref'>0</font>.</li>
+			<li>Some of the <a href='https://www.codecademy.com/resources/docs/cpp/functions' target='_blank'>functions</a> that come with vectors:</li>
+			<ul>
+				<li><font class='ref'>.push_back()</font></li>
+				<li><font class='ref'>.pop_back()</font></li>
+				<li><font class='ref'>.size()</font></li>
+			</ul>
+			<li>We can use a <font class='ref'>for</font> loop to iterate through a vector.</li>
+		</ol>
+	</section>
+
+	<h2><em>Functions:</em></h2>
+	<section id="functionsCPP">
+		<ol>
+			<li>A function is a named group of statements that do something together.</li>
+			<li><a href='https://www.codecademy.com/resources/docs/cpp/functions' target='_blank'>Functions</a> allow you to create more flexible, modular, and DRY code.</li>
+			<li>C++ has many built-in functions that you can use.</li>
+			<li>Functions are called like <font class='ref'>function_name();</font></li>
+			<li>A function has a declaration with a return type and possible parameters.</li>
+			<li>A function has a definition (or body) with a group of statements and a possible return value.</li>
+			<li><font class='ref'>void</font> functions do not have return values.</li>
+			<li>Functions with a return value have return statements.</li>
+			<li>Parameters are <a href='https://www.codecademy.com/resources/docs/cpp/variables' target='_blank'>variables</a> used as placeholders for function input values.</li>
+			<li>Arguments are a function’s actual input values.</li>
+			<li><font class='ref'>pow(a, b)</font> is a function that will raise <font class='ref'>a</font> to the power of <font class='ref'>b</font></li>
+		</ol>
+	</section>
+
+	<h2><em>Functions: Scope & Flexibility:</em></h2>
+	<section id="funcScopeFlex">
+		<ol>
+			<li>Scope is the region of code that has access to an element.</li>
+			<ul>
+				<li>Globally scoped <a href='https://www.codecademy.com/resources/docs/cpp/variables' target='_blank'>variables</a> are accessible everywhere.</li>
+				<li>A variable created inside a function has local scope and can’t be accessed outside the function.</li>
+			</ul>
+			<li>C++ functions are usually split to make code more modular:</li>
+			<ul>
+				<li>The declaration in a header file.</li>
+				<li>The definition in another .cpp file.</li>
+			</ul>	
+			<li>Programs with multiple .cpp files need to be linked at compile time:</li>
+			<ul>
+				<li><font class='ref'>g++ main.cpp fns.cpp</font></li>
+			</ul>
+			<li>Header files must be <font class='ref'>include</font>d in the file with <font class='ref'>main()</font>:</li>
+			<ul>
+				<li><font class='ref'>#include "fns.hpp"</font></li>
+			</ul>
+			<li>You can define a function inline using the <font class='ref'>inline</font> keyword, which may or may not improve execution speed.</li>
+			<li>Default arguments can be added to function declarations so that you can call the function without including those arguments.</li>
+			<li>You can overload C++ functions so that they handle different types of input and return different types.</li>
+			<li>A function template enables a function to behave the same with different types of parameters.</li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+	<h2><em>blah:</em></h2>
+	<section id="blah">
+		<ol>
+			<li></li>
+		</ol>
+	</section>
+
+
+</font>
+</section>	
+
+</body>

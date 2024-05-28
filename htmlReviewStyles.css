@@ -1,13 +1,13 @@
 h2 {
 	background-color: grey;
 	width: 1000px;
-	max-height: 40px;
+	height: 40px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border-radius: 25px 25px 0px 0px;
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: -5px;
+	margin-bottom: -10px;
 	margin-top: 30px;
 }
 
@@ -355,7 +355,7 @@ a.button {
 	line-height: 25px;
 }
 
-#blah {
+#HOFunction {
 	border: 5px solid #e3e3e3;
 	min-width: 1000px;
 	max-width: 1000px;
@@ -368,12 +368,12 @@ a.button {
 	line-height: 25px;
 }
 
-#blah {
+#iterators {
 	border: 5px solid #e3e3e3;
 	min-width: 1000px;
 	max-width: 1000px;
 	min-height: 120px;
-	max-height: 500px;
+	max-height: 600px;
 	background-color: #595959;
 	border-radius: 25px;
 	margin: 0 auto;
@@ -381,110 +381,151 @@ a.button {
 	line-height: 25px;
 }
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+/*C++ start*/
+	#helloWorld {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#compileExecute {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#variableCPP {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#conditionalsNlogic {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#logicalOperators {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#loopsCPP {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#errors {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
-#blah {
-	border: 5px solid #e3e3e3;
-	min-width: 1000px;
-	max-width: 1000px;
-	min-height: 120px;
-	max-height: 500px;
-	background-color: #595959;
-	border-radius: 25px;
-	margin: 0 auto;
-	box-shadow: 2px 2px 5px grey;
-	line-height: 25px;
-}
+	#vectors {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
 
+	#functionsCPP {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
+
+	#funcScopeFlex {
+		border: 5px solid #e3e3e3;
+		min-width: 1000px;
+		max-width: 1000px;
+		min-height: 120px;
+		max-height: 500px;
+		background-color: #595959;
+		border-radius: 25px;
+		margin: 0 auto;
+		box-shadow: 2px 2px 5px grey;
+		line-height: 25px;
+	}
+
+/*C# start*/
+#CS {
+	border: 5px solid #e3e3e3;
+	min-width: 1000px;
+	max-width: 1000px;
+	min-height: 120px;
+	max-height: 500px;
+	background-color: #595959;
+	border-radius: 25px;
+	margin: 0 auto;
+	box-shadow: 2px 2px 5px grey;
+	line-height: 25px;
+	}
+	
 #blah {
 	border: 5px solid #e3e3e3;
 	min-width: 1000px;
@@ -496,4 +537,4 @@ a.button {
 	margin: 0 auto;
 	box-shadow: 2px 2px 5px grey;
 	line-height: 25px;
-}
+	}
